@@ -1,20 +1,14 @@
-datasciencecoursera
+wonohkim / datasciencecoursera
 ===================
-## This is a secondary heading
-### This is a tertiary heading
-## This is a secondary Heading again
+## datasciencecoursera repo
+### of Wonoh Kim
 
 Repo for Coursera The Data Scientist's Toolbox
 
-* first
-* next
-* then
-* and finally
+* First, touch HelloWorld.md file with a line "## This is a markdown file"
+* Next, add new files by 'git add -A'; git commit -m "message"; git push
+* Then, pull request from jtleek/datasharing
+* And finally, submit the forked repo on my account
 
-text
-====
-two lines
-----
-one line
-
-Stop
+=====
+EOD
