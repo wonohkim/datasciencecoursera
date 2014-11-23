@@ -26,7 +26,6 @@ RStudio 3.1.1 was used to execute the code.
 
 The tidy_data.txt file contains data with the following variable names:
 
-> names(tidyData)
  [1] "activity"                          "subject"                          
  [3] "tBodyAccMeanX"                     "tBodyAccMeanY"                    
  [5] "tBodyAccMeanZ"                     "tBodyAccStdX"                     
@@ -81,6 +80,7 @@ Some acronyms are:
 - Freq - Frequency
 - Std - Standard Deviation
 
+Please refer attached "CodeBook.md" file.
 Please refer "More information" below.
 
 For each record it is provided:
