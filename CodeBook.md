@@ -74,3 +74,8 @@ Some acronyms are:
 - Freq - Frequency
 - Std - Standard Deviation
 
+## Programmed by
+
+The code and data are provided by Wonoh Kim, 
+for Project 2 of Getting and Cleaning Data course of Coursera
+in Nov 23, 2013.
