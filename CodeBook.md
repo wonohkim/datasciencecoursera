@@ -1,47 +1,76 @@
+CodeBook for Tidy Data
+===================
+## Coursera Getting and Cleaning Data Project 2
+### By Wonoh Kim, 11/23/2014
 
+## Data Source
 
- [1] "activity" "subject"
-[3] "tBodyAccMeanX" "tBodyAccMeanY"
-[5] "tBodyAccMeanZ" "tBodyAccStdX"
-[7] "tBodyAccStdY" "tBodyAccStdZ"
-[9] "tGravityAccMeanX" "tGravityAccMeanY"
-[11] "tGravityAccMeanZ" "tGravityAccStdX"
-[13] "tGravityAccStdY" "tGravityAccStdZ"
-[15] "tBodyAccJerkMeanX" "tBodyAccJerkMeanY"
-[17] "tBodyAccJerkMeanZ" "tBodyAccJerkStdX"
-[19] "tBodyAccJerkStdY" "tBodyAccJerkStdZ"
-[21] "tBodyGyroMeanX" "tBodyGyroMeanY"
-[23] "tBodyGyroMeanZ" "tBodyGyroStdX"
-[25] "tBodyGyroStdY" "tBodyGyroStdZ"
-[27] "tBodyGyroJerkMeanX" "tBodyGyroJerkMeanY"
-[29] "tBodyGyroJerkMeanZ" "tBodyGyroJerkStdX"
-[31] "tBodyGyroJerkStdY" "tBodyGyroJerkStdZ"
-[33] "tBodyAccMagMean" "tBodyAccMagStd"
-[35] "tGravityAccMagMean" "tGravityAccMagStd"
-[37] "tBodyAccJerkMagMean" "tBodyAccJerkMagStd"
-[39] "tBodyGyroMagMean" "tBodyGyroMagStd"
-[41] "tBodyGyroJerkMagMean" "tBodyGyroJerkMagStd"
-[43] "fBodyAccMeanX" "fBodyAccMeanY"
-[45] "fBodyAccMeanZ" "fBodyAccStdX"
-[47] "fBodyAccStdY" "fBodyAccStdZ"
-[49] "fBodyAccMeanFreqX" "fBodyAccMeanFreqY"
-[51] "fBodyAccMeanFreqZ" "fBodyAccJerkMeanX"
-[53] "fBodyAccJerkMeanY" "fBodyAccJerkMeanZ"
-[55] "fBodyAccJerkStdX" "fBodyAccJerkStdY"
-[57] "fBodyAccJerkStdZ" "fBodyAccJerkMeanFreqX"
-[59] "fBodyAccJerkMeanFreqY" "fBodyAccJerkMeanFreqZ"
-[61] "fBodyGyroMeanX" "fBodyGyroMeanY"
-[63] "fBodyGyroMeanZ" "fBodyGyroStdX"
-[65] "fBodyGyroStdY" "fBodyGyroStdZ"
-[67] "fBodyGyroMeanFreqX" "fBodyGyroMeanFreqY"
-[69] "fBodyGyroMeanFreqZ" "fBodyAccMagMean"
-[71] "fBodyAccMagStd" "fBodyAccMagMeanFreq"
-[73] "fBodyBodyAccJerkMagMean" "fBodyBodyAccJerkMagStd"
-[75] "fBodyBodyAccJerkMagMeanFreq" "fBodyBodyGyroMagMean"
-[77] "fBodyBodyGyroMagStd" "fBodyBodyGyroMagMeanFreq"
-[79] "fBodyBodyGyroJerkMagMean" "fBodyBodyGyroJerkMagStd"
-[81] "fBodyBodyGyroJerkMagMeanFreq" "angletBodyAccMeangravity"
-[83] "angletBodyAccJerkMeangravityMean" "angletBodyGyroMeangravityMean"
-[85] "angletBodyGyroJerkMeangravityMean" "angleXgravityMean"
-[87] "angleYgravityMean" "angleZgravityMean"
-[89] "activity" "subject"
+The experiments data can be found at:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+The detail description of the data can be found at:
+http://archive.icFrom the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.s.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+## Procedure
+
+From the experiment data set, a second, independent tidy data set with the average of each variable for each activity and each subject are created.
+
+To create the tidy data, execute R code run_analysis.R in either R or RStudio.
+The result data set tidy_data.txt was created by RStudio 3.1.1.
+
+## List of variables
+
+"activity"                          "subject"                          
+"tBodyAccMeanX"                     "tBodyAccMeanY"                    
+"tBodyAccMeanZ"                     "tBodyAccStdX"                     
+"tBodyAccStdY"                      "tBodyAccStdZ"                     
+"tGravityAccMeanX"                  "tGravityAccMeanY"                 
+"tGravityAccMeanZ"                  "tGravityAccStdX"                  
+"tGravityAccStdY"                   "tGravityAccStdZ"                  
+"tBodyAccJerkMeanX"                 "tBodyAccJerkMeanY"                
+"tBodyAccJerkMeanZ"                 "tBodyAccJerkStdX"                 
+"tBodyAccJerkStdY"                  "tBodyAccJerkStdZ"                 
+"tBodyGyroMeanX"                    "tBodyGyroMeanY"                   
+"tBodyGyroMeanZ"                    "tBodyGyroStdX"                    
+"tBodyGyroStdY"                     "tBodyGyroStdZ"                    
+"tBodyGyroJerkMeanX"                "tBodyGyroJerkMeanY"               
+"tBodyGyroJerkMeanZ"                "tBodyGyroJerkStdX"                
+"tBodyGyroJerkStdY"                 "tBodyGyroJerkStdZ"                
+"tBodyAccMagMean"                   "tBodyAccMagStd"                   
+"tGravityAccMagMean"                "tGravityAccMagStd"                
+"tBodyAccJerkMagMean"               "tBodyAccJerkMagStd"               
+"tBodyGyroMagMean"                  "tBodyGyroMagStd"                  
+"tBodyGyroJerkMagMean"              "tBodyGyroJerkMagStd"              
+"fBodyAccMeanX"                     "fBodyAccMeanY"                    
+"fBodyAccMeanZ"                     "fBodyAccStdX"                     
+"fBodyAccStdY"                      "fBodyAccStdZ"                     
+"fBodyAccMeanFreqX"                 "fBodyAccMeanFreqY"                
+"fBodyAccMeanFreqZ"                 "fBodyAccJerkMeanX"                
+"fBodyAccJerkMeanY"                 "fBodyAccJerkMeanZ"                
+"fBodyAccJerkStdX"                  "fBodyAccJerkStdY"                 
+"fBodyAccJerkStdZ"                  "fBodyAccJerkMeanFreqX"            
+"fBodyAccJerkMeanFreqY"             "fBodyAccJerkMeanFreqZ"            
+"fBodyGyroMeanX"                    "fBodyGyroMeanY"                   
+"fBodyGyroMeanZ"                    "fBodyGyroStdX"                    
+"fBodyGyroStdY"                     "fBodyGyroStdZ"                    
+"fBodyGyroMeanFreqX"                "fBodyGyroMeanFreqY"               
+"fBodyGyroMeanFreqZ"                "fBodyAccMagMean"                  
+"fBodyAccMagStd"                    "fBodyAccMagMeanFreq"              
+"fBodyBodyAccJerkMagMean"           "fBodyBodyAccJerkMagStd"           
+"fBodyBodyAccJerkMagMeanFreq"       "fBodyBodyGyroMagMean"             
+"fBodyBodyGyroMagStd"               "fBodyBodyGyroMagMeanFreq"         
+"fBodyBodyGyroJerkMagMean"          "fBodyBodyGyroJerkMagStd"          
+"fBodyBodyGyroJerkMagMeanFreq"      "angletBodyAccMeangravity"         
+"angletBodyAccJerkMeangravityMean"  "angletBodyGyroMeangravityMean"    
+"angletBodyGyroJerkMeangravityMean" "angleXgravityMean"                
+"angleYgravityMean"                 "angleZgravityMean"                
+"activity"                          "subject"    
+
+All the variable names are self explanatory and detail information can be found in the original data set.
+Some acronyms are:
+
+- Acc - Acceleration
+- Mag - Magnitude
+- Freq - Frequency
+- Std - Standard Deviation
+
